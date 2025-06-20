@@ -71,13 +71,30 @@ section.imagem {
     color: white;
    
     padding: 30px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
+    background-attachment: fixed;
     
      
 }
 
 section.imagem > p {
-    width: 400px;
+    width: 50%;
     background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    padding: 5px;
+    display: inline-block
+}
+
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
 }
 
 a, footer a {
